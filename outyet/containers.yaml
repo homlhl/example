@@ -1,8 +1,8 @@
 version: v1beta2
 containers:
-- name: outyet
-  image: adg1/outyet
+- name: My First Project
+  image: homlhl/example
   ports:
   - name: http
     hostPort: 80
-    containerPort: 8080
+    containerPort: 80
